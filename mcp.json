@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "wolfsms": {
+      "type": "http",
+      "url": "https://usewolfsms.com/mcp"
+    }
+  }
+}
