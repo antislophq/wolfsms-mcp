@@ -10,7 +10,7 @@
     {
       "name": "wolfsms",
       "displayName": "WolfSMS MCP",
-      "description": "Let AI agents securely read the text messages on your phone, like verification codes and OTPs.",
+      "description": "Securely access SMS messages on your phone, like delivery codes and transaction alerts.",
       "version": "1.0.0",
       "source": "./",
       "category": "productivity",

@@ -1,6 +1,6 @@
 # WolfSMS MCP
 
-Let AI agents securely read the text messages on your phone, like verification codes and OTPs.
+Securely access SMS messages on your phone, like delivery codes and transaction alerts.
 
 This plugin connects your AI agent to the hosted [WolfSMS](https://usewolfsms.com) MCP server at `https://usewolfsms.com/mcp`. It follows the [Agent Plugins](https://agent-plugins.org) standard and also ships Cursor and Claude Code manifests.
 
