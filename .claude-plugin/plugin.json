@@ -15,9 +15,6 @@
     "wolfsms",
     "sms",
     "text-messages",
-    "otp",
-    "verification-codes",
-    "2fa",
     "mcp"
   ],
   "mcpServers": "./.mcp.json",

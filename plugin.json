@@ -11,5 +11,5 @@
   "homepage": "https://usewolfsms.com",
   "repository": "https://github.com/antislophq/wolfsms-mcp",
   "license": "MIT",
-  "keywords": ["wolfsms", "sms", "text-messages", "otp", "verification-codes", "2fa", "mcp"]
+  "keywords": ["wolfsms", "sms", "text-messages", "mcp"]
 }

@@ -11,6 +11,6 @@
   "repository": "https://github.com/antislophq/wolfsms-mcp",
   "license": "MIT",
   "logo": "assets/logo.png",
-  "keywords": ["wolfsms", "sms", "text-messages", "otp", "verification-codes", "2fa", "mcp"],
+  "keywords": ["wolfsms", "sms", "text-messages", "mcp"],
   "mcpServers": "./.mcp.json"
 }
