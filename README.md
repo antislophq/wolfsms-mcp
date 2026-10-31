@@ -1,30 +1,41 @@
-# WolfSMS for Cursor
+# WolfSMS MCP
 
 Let AI agents securely read the text messages on your phone, like verification codes and OTPs.
 
-This plugin connects Cursor to the hosted [WolfSMS](https://usewolfsms.com) MCP server at `https://usewolfsms.com/mcp`.
+This plugin connects your AI agent to the hosted [WolfSMS](https://usewolfsms.com) MCP server at `https://usewolfsms.com/mcp`. It follows the [Agent Plugins](https://agent-plugins.org) standard and also ships Cursor and Claude Code manifests.
 
 ## Installation
 
-### Cursor Marketplace
+### Cursor
 
-In Cursor, type `/add-plugin` in chat, search for **WolfSMS**, and install it.
+In Cursor, type `/add-plugin` in chat, search for **WolfSMS MCP**, and install it.
 
-### From source
+### Claude Code
 
-Cursor loads local plugins from `~/.cursor/plugins/local/<plugin-name>/`:
-
-```bash
-git clone https://github.com/antislophq/wolfsms-mcp.git
-mkdir -p ~/.cursor/plugins/local
-rsync -a --delete --exclude='.git' wolfsms-mcp/ ~/.cursor/plugins/local/wolfsms/
+```
+/plugin marketplace add antislophq/wolfsms-mcp
+/plugin install wolfsms@wolfsms
 ```
 
-Then run **Developer: Reload Window**.
+### Codex
+
+```bash
+codex plugin marketplace add antislophq/wolfsms-mcp
+```
+
+Then install **WolfSMS MCP** from the Plugins Directory.
+
+### VS Code and GitHub Copilot
+
+Run **Chat: Install Plugin From Source** from the Command Palette and enter `https://github.com/antislophq/wolfsms-mcp`.
+
+### Any other MCP client
+
+Add a remote MCP server with the URL `https://usewolfsms.com/mcp`.
 
 ## Usage
 
-The first time the agent uses WolfSMS, Cursor asks you to sign in to WolfSMS. No API keys or configuration are needed.
+The first time the agent uses WolfSMS, your client asks you to sign in to WolfSMS. No API keys or configuration are needed.
 
 Then ask the agent things like:
 
@@ -45,6 +56,7 @@ The agent walks you through installing the WolfSMS app and pairing your phone if
 ## Support
 
 - Website: [usewolfsms.com](https://usewolfsms.com)
+- Privacy: [usewolfsms.com/privacy](https://usewolfsms.com/privacy)
 - Email: support@usewolfsms.com
 - Issues: [github.com/antislophq/wolfsms-mcp/issues](https://github.com/antislophq/wolfsms-mcp/issues)
 

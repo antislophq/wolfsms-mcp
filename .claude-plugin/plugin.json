@@ -1,0 +1,25 @@
+{
+  "name": "wolfsms",
+  "displayName": "WolfSMS MCP",
+  "version": "1.0.0",
+  "description": "Let AI agents securely read the text messages on your phone, like verification codes and OTPs.",
+  "author": {
+    "name": "WolfSMS",
+    "email": "support@usewolfsms.com",
+    "url": "https://usewolfsms.com"
+  },
+  "homepage": "https://usewolfsms.com",
+  "repository": "https://github.com/antislophq/wolfsms-mcp",
+  "license": "MIT",
+  "keywords": [
+    "wolfsms",
+    "sms",
+    "text-messages",
+    "otp",
+    "verification-codes",
+    "2fa",
+    "mcp"
+  ],
+  "mcpServers": "./.mcp.json",
+  "privacyPolicyUrl": "https://usewolfsms.com/privacy"
+}

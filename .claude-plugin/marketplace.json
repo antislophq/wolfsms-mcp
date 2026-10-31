@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "wolfsms",
+  "description": "WolfSMS plugin marketplace",
+  "owner": {
+    "name": "WolfSMS",
+    "email": "support@usewolfsms.com"
+  },
+  "plugins": [
+    {
+      "name": "wolfsms",
+      "displayName": "WolfSMS MCP",
+      "description": "Let AI agents securely read the text messages on your phone, like verification codes and OTPs.",
+      "version": "1.0.0",
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://usewolfsms.com"
+    }
+  ]
+}
