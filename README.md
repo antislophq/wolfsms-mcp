@@ -40,7 +40,7 @@ The first time the agent uses WolfSMS, your client asks you to sign in to WolfSM
 Then ask the agent things like:
 
 - "Link my phone to WolfSMS."
-- "What's the verification code I just got?"
+- "What's the code for my Amazon delivery today?"
 - "Show my latest text messages."
 
 The agent walks you through installing the WolfSMS app and pairing your phone if it isn't linked yet.
