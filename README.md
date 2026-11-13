@@ -25,6 +25,14 @@ codex plugin marketplace add antislophq/wolfsms-mcp
 
 Then install **WolfSMS MCP** from the Plugins Directory.
 
+### Gemini CLI
+
+```bash
+gemini extensions install https://github.com/antislophq/wolfsms-mcp
+```
+
+Then run `/mcp auth wolfsms` in Gemini CLI to sign in.
+
 ### VS Code and GitHub Copilot
 
 Run **Chat: Install Plugin From Source** from the Command Palette and enter `https://github.com/antislophq/wolfsms-mcp`.
