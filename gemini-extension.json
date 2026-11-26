@@ -1,6 +1,6 @@
 {
   "name": "wolfsms",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Securely access SMS messages on your phone, like delivery codes and transaction alerts.",
   "mcpServers": {
     "wolfsms": {
