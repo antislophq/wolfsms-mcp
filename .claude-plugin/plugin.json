@@ -1,7 +1,7 @@
 {
   "name": "wolfsms",
   "displayName": "WolfSMS MCP",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Securely access SMS messages on your phone, like delivery codes and transaction alerts.",
   "author": {
     "name": "WolfSMS",

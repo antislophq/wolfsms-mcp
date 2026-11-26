@@ -50,6 +50,7 @@ Then ask the agent things like:
 - "Link my phone to WolfSMS."
 - "What's the code for my Amazon delivery today?"
 - "Show my latest text messages."
+- "Text Sam that I'm running 10 minutes late."
 
 The agent walks you through installing the WolfSMS app and pairing your phone if it isn't linked yet.
 
@@ -57,9 +58,11 @@ The agent walks you through installing the WolfSMS app and pairing your phone if
 
 | Tool | Description |
 | --- | --- |
-| `link_phone` | Checks whether your phone is linked, and returns pairing instructions if it isn't. |
-| `list_messages` | Lists SMS messages synced from your devices, newest first. |
-| `list_devices` | Lists the devices that sync SMS messages. |
+| `link_phone` | Checks whether your phone is linked, and returns pairing instructions to link it or another phone. |
+| `list_messages` | Lists SMS messages synced from your phones, received and sent, newest first. It can filter by sender or recipient and by time. |
+| `list_devices` | Lists your linked phones and when each one last synced a message. |
+| `send_message` | Sends an SMS from your phone, only when you ask it to. |
+| `unlink_phone` | Unlinks one of your phones from WolfSMS, after you confirm which one. |
 
 ## Support
 
